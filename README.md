@@ -158,4 +158,4 @@ found [here](https://www.cairographics.org/manual/cairo-XLib-Surfaces.html), and
 License
 -------
 
-[ISC](https://github.com/edadma/cairo_xlib/blob/main/LICENSE)
+[ISC](https://github.com/edadma/cairo-xlib/blob/main/LICENSE)
