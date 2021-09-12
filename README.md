@@ -42,10 +42,12 @@ libraryDependencies += "io.github.edadma" %%% "cairo-xlib" % "0.1.0"
 
 ```
 
-Use the following `import` in your code:
+Use the following `import` statements in your code:
 
 ```scala
 import io.github.edadma.cairo_xlib._
+import io.github.edadma.libcairo._
+import io.github.edadma.xlib._
 
 ```
 
