@@ -1,4 +1,4 @@
-name := "-sn-template"
+name := "cairo-xlib"
 
 version := "0.1.0"
 
@@ -31,7 +31,7 @@ resolvers += "Typesafe Repository" at "https://repo.typesafe.com/typesafe/releas
 
 resolvers += Resolver.githubPackages("edadma")
 
-Compile / mainClass := Some(s"${organization.value}.${name.value.replace('-', '_')}.Main")
+Compile / mainClass := Some("Main")
 
 licenses := Seq("ISC" -> url("https://opensource.org/licenses/ISC"))
 
@@ -42,6 +42,12 @@ homepage := Some(url("https://github.com/edadma/" + name.value))
 //libraryDependencies ++= Seq(
 //  "com.github.scopt" %%% "scopt" % "4.0.1"
 //)
+
+libraryDependencies ++=
+  Seq(
+    "io.github.edadma" %%% "libcairo" % "0.1.4",
+    "io.github.edadma" %%% "xlib"     % "0.1.0.pre.18"
+  )
 
 publishMavenStyle := true
 
