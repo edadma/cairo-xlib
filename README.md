@@ -3,7 +3,7 @@ cairo-xlib
 
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/edadma/cairo-xlib?include_prereleases) ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/edadma/cairo-xlib) ![GitHub last commit](https://img.shields.io/github/last-commit/edadma/cairo-xlib) ![GitHub](https://img.shields.io/github/license/edadma/cairo-xlib)
 
-*cairo-xlib* provides Scala Native bindings for the [Cairo](https://www.cairographics.org/) 2D graphics library [X Window System](https://www.x.org/releases/current/) rendering using [XLib](https://www.x.org/releases/current/doc/libX11/libX11/libX11.html).
+*cairo-xlib* provides Scala Native bindings for the [X Window System](https://www.x.org/releases/current/) 2D graphics rendering support using [XLib](https://www.x.org/releases/current/doc/libX11/libX11/libX11.html).
 
 Overview
 --------
