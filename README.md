@@ -12,8 +12,7 @@ The goal of this project is to provide an easy-to-use Scala Native bindings for 
 
 The more "programmer friendly" part of this library is found in the `io.github.edadma.cairo_xlib` package. That's the only
 package you need to import from, as seen in the example below. The other package in the library
-is `io.github.edadma.cairo_xlib.extern` which provides for interaction with the *cairo_xlib* C library using Scala Native
-interoperability elements from the so-call `unsafe` namespace. There are no public declarations in
+is `io.github.edadma.cairo_xlib.extern` which provides for interaction with the *libcairo* and *xlib* C libraries using Scala Native interoperability elements from the so-call `unsafe` namespace. There are no public declarations in
 the `io.github.edadma.cairo_xlib` package that use `unsafe` types in their parameter or return types, making it a pure
 Scala bindings library. Consequently, you never have to worry about memory allocation or type conversions.
 
